@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36221.1 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechSupportTest", "TechSupportTest\TechSupportTest.csproj", "{DB9B897B-F8F2-455E-9F09-8B74B656DD42}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HedgehogApp", "HedgehogApp\HedgehogApp.csproj", "{AB105E51-704D-461E-ABCA-0A712DC99939}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JsSudoku", "JsSudoku", "{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}"
+	ProjectSection(SolutionItems) = preProject
+		validSolution.js = validSolution.js
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +16,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DB9B897B-F8F2-455E-9F09-8B74B656DD42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DB9B897B-F8F2-455E-9F09-8B74B656DD42}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DB9B897B-F8F2-455E-9F09-8B74B656DD42}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DB9B897B-F8F2-455E-9F09-8B74B656DD42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB105E51-704D-461E-ABCA-0A712DC99939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB105E51-704D-461E-ABCA-0A712DC99939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB105E51-704D-461E-ABCA-0A712DC99939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB105E51-704D-461E-ABCA-0A712DC99939}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
